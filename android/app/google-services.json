@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "784100962028",
+    "project_id": "order-app-6e31e",
+    "storage_bucket": "order-app-6e31e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784100962028:android:cfe4cf4d982cfe72a93fc9",
+        "android_client_info": {
+          "package_name": "com.example.order_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBicwW_DlWFzNsNmLfPV4m5G7i--fYRKYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
