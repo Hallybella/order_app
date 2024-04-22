@@ -33,6 +33,10 @@ flutter run
 
 Make sure you have a device connected or an emulator running before executing the command.
 
+## Demo
+
+Watch a demo of the app [here](https://drive.google.com/file/d/1-dXVdH1jVhkILwg1jAe6TKlZpksj6Uun/view?usp=sharing).
+
 ## Test the App
 
 Test different features of the app and provide feedback or bug reports by opening an issue on GitHub.

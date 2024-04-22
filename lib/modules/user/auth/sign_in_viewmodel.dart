@@ -28,6 +28,8 @@ class AuthViewModel extends BaseViewModel {
       idToken: googleAuth?.idToken,
     );
 
+    log.v(credential);
+
     // Once signed in, return the UserCredential
     return await FirebaseAuth.instance.signInWithCredential(credential);
   }
@@ -36,7 +38,7 @@ class AuthViewModel extends BaseViewModel {
     final user = await getSignInWithGoogle();
     // log.v(user.toString());
     navigationService.replaceWithDashboardScreen(
-      user: AppUser(uid: user.user!.uid, email: user.user?.email ?? ""),
+      user: AppUser(uid: user.user!.uid, email: user.user?.displayName ?? ""),
     );
   }
 
